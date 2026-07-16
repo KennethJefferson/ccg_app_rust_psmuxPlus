@@ -1,15 +1,14 @@
 # --- nested repos (not vendored here; see README) ---
 psmux/
 
-# --- third-party reference source (AGPL cmux; architecture reference only, never republished) ---
-__references/
+# --- cmux clone has a nested .git (own repo); pending vendor-vs-submodule decision ---
+__references/cmux/
 
 # --- private working areas (conversation exports, scratch, unvetted dumps) ---
 __docs/
 __files.ccg/
 __files.pi/
 __research/
-__solutions/
 
 # --- local tool state ---
 .claude/
