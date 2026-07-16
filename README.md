@@ -26,6 +26,16 @@ A Rust-based terminal-multiplexer workspace built around a fork of [psmux](https
 | `Usage.md` | End-to-end usage of the orchestration stack |
 | `Changelog.md` | Workspace changelog (Keep a Changelog format) |
 
+## Cloning
+
+The cmux reference source is a git submodule — clone with:
+
+```bash
+git clone --recurse-submodules https://github.com/KennethJefferson/ccg_app_rust_psmuxPlus.git
+# or, after a plain clone:
+git submodule update --init
+```
+
 ## Status
 
 Increment 1 (identity model + event bus + Claude hooks) and the codex done-signal
