@@ -1,5 +1,5 @@
-# --- nested repos (not vendored here; see README) ---
-psmux/
+# --- reference material: third-party source + transcripts (local only) ---
+__references/
 
 # --- private working areas (conversation exports, scratch, unvetted dumps) ---
 __docs/
@@ -23,3 +23,7 @@ Desktop.ini
 *~
 *.log
 *.tmp
+
+# --- local workspace snapshot archives ---
+psmuxPlus.zip
+*.zip
