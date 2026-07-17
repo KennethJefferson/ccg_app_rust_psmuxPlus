@@ -4,6 +4,18 @@ All notable changes to the psmuxPlus workspace are documented in this file.
 This file is append-only. Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/);
 versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2026-07-16
+
+### Added
+- `psmux/` — the Rust fork is now included as a **git submodule** pointing at
+  [KennethJefferson/psmux](https://github.com/KennethJefferson/psmux)
+  (branch `feature/agent-events-done-signal`, pinned at `f64e15b`).
+
+### Removed
+- `__references/` no longer tracked (back in `.gitignore`; content remains local-only):
+  the cmux submodule, `learning-cmux-with-agents-main/`, `advisor-orchestrator-worker/`,
+  and the cmux video transcript.
+
 ## [1.0.0] - 2026-07-15
 
 ### Added

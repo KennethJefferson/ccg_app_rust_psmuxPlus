@@ -19,7 +19,7 @@ A Rust-based terminal-multiplexer workspace built around a fork of [psmux](https
 
 | Path | What it is |
 |---|---|
-| `psmux/` | The Rust fork (own git repo — [KennethJefferson/psmux](https://github.com/KennethJefferson/psmux)); not vendored here |
+| `psmux/` | **The Rust fork — git submodule** → [KennethJefferson/psmux](https://github.com/KennethJefferson/psmux), branch `feature/agent-events-done-signal` |
 | `docs/superpowers/` | Workspace-level design specs and implementation plans |
 | `psmuxplus-harness-grid`, `psmuxplus-panel` | Local symlinks to the skills (own repos); not vendored here |
 | `CLAUDE.md` | Working instructions for Claude Code sessions in this workspace |
@@ -28,7 +28,7 @@ A Rust-based terminal-multiplexer workspace built around a fork of [psmux](https
 
 ## Cloning
 
-The cmux reference source is a git submodule — clone with:
+The psmux fork is a git submodule — clone with:
 
 ```bash
 git clone --recurse-submodules https://github.com/KennethJefferson/ccg_app_rust_psmuxPlus.git
